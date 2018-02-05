@@ -1,0 +1,363 @@
+[
+  {
+	"title":"VP Task Force",
+	"drawable":"app/src/main/res/drawable/vptlogo.png",
+	"submenu":"",
+	"tabs":[
+	{"title":"Register",
+	"provider":"webview",
+	"arguments":[
+	"http://whistlefield.website"
+	]
+	}],"iap":false},{"title":"Safety Maps","drawable":"csmlogo.png","submenu":"","tabs":[{"title":"Alerts","provider":"webview","arguments":["http://citizenspublicsafetynetwork.com/csm-whistlefield"]}],"iap":false},
+	
+	{"title":"Aegis Reports","drawable":"arlogo.png","submenu":"","tabs":[{"title":"Reports","provider":"webview","arguments":["http://citizenspublicsafetynetwork.com/ar-whistlefield"]}],"iap":false},
+	
+	{"title":"Sherlock AI","drawable":"sailogo.png","submenu":"","tabs":[{"title":"Curator","provider":"webview","arguments":["http://citizenspublicsafetynetwork.com/ai-whistlefield"]}],"iap":false},
+	
+	{"title":"WhistleField","drawable":"wflogo.png","submenu":"","tabs":[{"title":"Mobile","provider":"webview","arguments":["http://citizenspublicsafetynetwork.com/wf-whistlefield"]}],"iap":false},
+
+  {
+    "title":"Wordpress Blogs",
+    "drawable":"",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Recent Posts",
+        "provider":"wordpress",
+        "arguments":[
+          "en.blog.wordpress.com"
+        ]
+      },
+      {
+        "title":"Themes",
+        "provider":"wordpress",
+        "arguments":[
+          "en.blog.wordpress.com",
+          "themes"
+        ]
+      },
+      {
+        "title":"Security",
+        "provider":"wordpress",
+        "arguments":[
+          "en.blog.wordpress.com",
+          "security"
+        ]
+      },
+      {
+        "title":"Events",
+        "provider":"wordpress",
+        "arguments":[
+          "en.blog.wordpress.com",
+          "events"
+        ]
+      }
+    ]
+  },
+  {
+    "title":"Radio 3FM",
+    "drawable":"",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Radio 3FM",
+        "provider":"radio",
+        "arguments":[
+          "http://yp.shoutcast.com/sbin/tunein-station.m3u?id=99226864"
+        ]
+      },
+      {
+        "title":"Radio ZFM",
+        "provider":"radio",
+        "arguments":[
+          "http://yp.shoutcast.com/sbin/tunein-station.m3u?id=901725"
+        ]
+      }
+    ]
+  },
+  {
+    "title":"Live TV ABC",
+    "drawable":"",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Live TV ABC",
+        "provider":"stream",
+        "arguments":[
+          "http://178.32.255.199:1935/live/ptven/playlist.m3u8"
+        ]
+      }
+    ]
+  },
+  {
+    "title":"RSS",
+    "drawable":"",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Feed",
+        "provider":"rss",
+        "arguments":[
+          "http://feeds.feedburner.com/AndroidPolice"
+        ]
+      },
+      {
+        "title":"Podcast",
+        "provider":"rss",
+        "arguments":[
+          "http://feeds.nature.com/nature/podcast/current"
+        ]
+      }
+    ]
+  },
+  {
+    "title":"Home",
+    "drawable":"",
+    "submenu":"WooCommerce",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Shop",
+        "provider":"woocommerce",
+        "arguments":[
+          "", "https://image.ibb.co/bV2yaw/Woo_Header.png"
+        ]
+      }
+    ]
+  },
+  {
+    "title":"Orders",
+    "drawable":"",
+    "submenu":"WooCommerce",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Orders",
+        "provider":"woocommerce",
+        "arguments":[
+          "orders"
+        ]
+      }
+    ]
+  },
+  {
+    "title":"Tumblr",
+    "drawable":"",
+    "submenu":"Social Media",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Tumblr",
+        "provider":"tumblr",
+        "arguments":[
+          "androidbackgrounds"
+        ]
+      }
+    ]
+  },
+  {
+    "title":"SoundCloud",
+    "drawable":"",
+    "submenu":"Social Media",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"User",
+        "provider":"soundcloud",
+        "arguments":[
+          "13568105", "user"
+        ]
+      },
+      {
+        "title":"Playlist",
+        "provider":"soundcloud",
+        "arguments":[
+          "104226047", "playlist"
+        ]
+      }
+    ]
+  },
+  {
+    "title":"Twitter",
+    "drawable":"",
+    "submenu":"Social Media",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Twitter",
+        "provider":"twitter",
+        "arguments":[
+          "Android"
+        ]
+      }
+    ]
+  },
+  {
+    "title":"Instagram",
+    "drawable":"",
+    "submenu":"Social Media",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Instagram",
+        "provider":"instagram",
+        "arguments":[
+          "2948597263"
+        ]
+      }
+    ]
+  },
+  {
+    "title":"Facebook",
+    "drawable":"",
+    "submenu":"Social Media",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Facebook",
+        "provider":"facebook",
+        "arguments":[
+          "104958162837"
+        ]
+      }
+    ]
+  },
+  {
+    "title":"Youtube",
+    "drawable":"",
+    "submenu":"Social Media",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Youtube Live",
+        "provider":"youtube",
+        "arguments":[
+          "UCoMdktPbSTixAyNGwb-UYkQ",
+          "live"
+        ]
+      },
+      {
+        "title":"Youtube Playlist",
+        "provider":"youtube",
+        "arguments":[
+          "UU7V6hW6xqPAiUfataAZZtWA",
+          "playlist"
+        ]
+      },
+      {
+        "title":"Youtube Channel",
+        "provider":"youtube",
+        "arguments":[
+          "UCoMdktPbSTixAyNGwb-UYkQ",
+          "channel"
+        ]
+      }
+    ]
+  },
+  {
+    "title":"Pinterest",
+    "drawable":"",
+    "submenu":"Social Media",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Pinterest",
+        "provider":"pinterest",
+        "arguments":[
+          "515451188540423446"
+        ]
+      }
+    ]
+  },
+  {
+    "title":"WebView",
+    "drawable":"",
+    "submenu":"Other",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"WebView",
+        "provider":"webview",
+        "arguments":[
+          "http://www.google.com"
+        ]
+      }
+    ]
+
+  },
+  {
+    "title":"Categories",
+    "drawable":"",
+    "submenu":"Other",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Categories",
+        "provider":"overview",
+        "arguments":[
+          "overview.json"
+        ]
+      }
+    ]
+  },
+  {
+    "title":"Wordpress Other",
+    "drawable":"",
+    "submenu":"Other",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"WP JSON & Disqus",
+        "provider":"wordpress",
+        "arguments":[
+          "http://androidpolice.com",
+          "",
+          "http://androidpolice.disqus.com/;androidpolice;%d http://www.androidpolice.com/?p=%d"
+        ]
+      },
+      {
+        "title":"WP REST",
+        "provider":"wordpress",
+        "arguments":[
+          "https://wordpress.org/news/wp-json/wp/v2/",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title":"Location",
+    "drawable":"",
+    "submenu":"Other",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"",
+        "provider":"maps",
+        "arguments":[
+          "https://www.mapbox.com/help/data/stations.geojson"
+        ]
+      }
+    ]
+  },
+  {
+    "title":"Custom",
+    "drawable":"",
+    "submenu":"Other",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"",
+        "provider":"custom",
+        "arguments":[
+          "com.sherdle.universal.SettingsFragment", "fragment"
+        ]
+      }
+    ]
+  }
+]
